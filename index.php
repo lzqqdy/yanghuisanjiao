@@ -15,7 +15,7 @@ for ($i = 1; $i <= $n; $i++)
         }
         echo " ";
     }
-    echo "<br/>";
+    echo PHP_EOL;
 }
 
 //新思路-不使用数组
@@ -33,5 +33,5 @@ for ($i = 1; $i <= 10; $i++)
             echo 1;
         }
     }
-    echo "<br/>";
+    echo PHP_EOL;
 }
